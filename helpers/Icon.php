@@ -11,7 +11,7 @@ namespace foundation\helpers;
 use foundation\enum\Enum;
 
 /**
- * Class Icon
+ * Icon helper contains methods to work with Foundation icons -ie assets registrations (fonts), icon rendering.
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\helpers

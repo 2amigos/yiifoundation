@@ -38,15 +38,15 @@ class Breadcrumbs extends base\Widget
      * @var string the tag name to be used. Possible: 'nav' | 'ul'. Defaults to 'ul'.
      */
     public $tagName = 'ul';
-
     /**
      * @var array $items the items of breadcrumbs. The format is as follows:
-     * ```php
+     * <pre>
      *  'label'=>'#',
      *  'label'=>array('url'=>'#', 'options'=>array())
-     * ```
+     * </pre>
      */
     public $items = array();
+
 
     /**
      * Widget's init method

@@ -17,7 +17,7 @@ use foundation\enum\Enum;
  *
  * For example:
  *
- * ```php
+ * <pre>
  * echo Tabs::widget(array(
  *     'items' => array(
  *         array(
@@ -32,7 +32,8 @@ use foundation\enum\Enum;
  *         ),
  *     ),
  * ));
- * ```
+ * </pre>
+ *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\helpers
  */

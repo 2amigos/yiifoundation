@@ -14,11 +14,11 @@ use foundation\enum\Enum;
 use foundation\exception\InvalidConfigurationException;
 
 /**
- * Nav renders a nav HTML component.
+ * TopBar widget renders a nav HTML component.
  *
  * For example:
  *
- * ```php
+ * <pre>
  * echo TopBar::widget(array(
  *     'leftItems' => array(
  *         array(
@@ -63,7 +63,7 @@ use foundation\exception\InvalidConfigurationException;
  *         ),
  *     ),
  * ));
- * ```
+ * </pre>
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\widgets

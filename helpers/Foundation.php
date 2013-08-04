@@ -9,7 +9,7 @@
 namespace foundation\helpers;
 
 /**
- * Class Foundation
+ * Foundation helper contains functions to work with the core assets.
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\helpers

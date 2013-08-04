@@ -24,6 +24,7 @@ class Clearing extends base\Widget
     /**
      * @var array $items the items to be displayed on the gallery. The syntax is the following:
      *
+     * <pre>
      * 'items' => array(
      *      array(
      *          'img' => 'large image source',
@@ -33,6 +34,7 @@ class Clearing extends base\Widget
      *          'options' => array(...)
      *      )
      * )
+     * </pre>
      */
     public $items;
 

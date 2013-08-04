@@ -9,7 +9,7 @@
 namespace foundation\helpers;
 
 /**
- * Html holds those modified methods from [[CHtml]] required for Foundation helpers and/or widgets.
+ * Html holds those modified methods from CHtml required for Foundation helpers and/or widgets.
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\helpers

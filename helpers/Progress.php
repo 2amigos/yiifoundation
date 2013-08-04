@@ -10,7 +10,7 @@ namespace foundation\helpers;
 use foundation\enum\Enum;
 
 /**
- * Class Progress
+ * Progress helpers deals with the different progress bars of Foundation.
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\helpers

@@ -11,7 +11,7 @@ use foundation\enum\Enum;
 use foundation\exception\InvalidConfigException;
 
 /**
- * Class Nav
+ * Nav Helper renders different type of navigation markups.
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\helpers

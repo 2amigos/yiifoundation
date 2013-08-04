@@ -9,7 +9,7 @@
 namespace foundation\helpers;
 
 /**
- * Class ArrayHelper
+ * ArrayHelper has array utility methods
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\helpers

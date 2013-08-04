@@ -31,7 +31,7 @@ class Widget extends \CWidget
      *      'css' => 'file.css',
      *      'js' => 'file.js')
      *  ),
-     *  -
+     * ...
      *  'assets' => array(
      *      'css' => array(
      *          'file1.css',

@@ -12,7 +12,7 @@ use foundation\widgets\Dropdown;
 use foundation\enum\Enum;
 
 /**
- * Button helper renders differeent foundation buttons
+ * Button helper renders different foundation buttons
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @package foundation\helpers
