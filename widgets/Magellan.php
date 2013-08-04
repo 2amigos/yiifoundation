@@ -25,11 +25,11 @@ class Magellan extends base\Widget
     /**
      * @var array the navigation items. They have the following syntax:
      *
-     * ```php
+     * <pre>
      * 'items' => array(
      *      array('id' => 'anchor on page', 'label' => 'item label')
      * )
-     * ```
+     * </pre>
      */
     public $items = array();
 

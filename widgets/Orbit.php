@@ -24,11 +24,11 @@ class Orbit extends base\Widget
     /**
      * @var array the items to render in the orbit. The syntax is as follows:
      *
-     * ```php
+     * <pre>
      * 'items' => array(
      *      array('content', 'caption')
      * )
-     * ```
+     * </pre>
      */
     public $items = array();
 

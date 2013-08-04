@@ -24,7 +24,7 @@ class JoyRide extends base\Widget
     /**
      * @var array plugin initialization options. The following are available:
      *
-     * ```php
+     * <pre>
      *  array(
      *      'tipLocation'           => 'bottom',            // 'top' or 'bottom' in relation to parent
      *      'nubPosition'           => 'auto',              // override on a per tooltip bases
@@ -51,13 +51,13 @@ class JoyRide extends base\Widget
      *          'button' => '<a href="#" class="small button joyride-next-tip"></a>'
      *      ),
      *  )
-     * ```
+     * </pre>
      */
     public $pluginOptions = array();
     /**
      * The tour stops. Each stop has the following syntax
      *
-     * ```php
+     * <pre>
      * 'stops' => array(
      *      array(
      *          'id' => 'id-of-element', // if null will be displayed as a modal
@@ -69,7 +69,7 @@ class JoyRide extends base\Widget
      *          'options' => array(...), // optional joyride options for the element
      *      )
      * )
-     * ```
+     * </pre>
      */
     public $stops = array();
     /**

@@ -24,12 +24,12 @@ class Interchange extends base\Widget
     /**
      * @var array interchange rules. The syntax is:
      *
-     * ```php
+     * <pre>
      *  'iterchange' => array(
      *      array('pathtoimage', 'rule'),
      *      array('pathtoimage', 'rule')
      * )
-     * ```
+     * </pre>
      */
     public $rules = array();
 

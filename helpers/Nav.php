@@ -23,9 +23,9 @@ class Nav
      * Generates a side nav
      *
      * @param array $items the link items to display as a side nav. The items have the following format:
-     * ```
+     * <pre>
      * array('label'=>'Item', 'url'=>'#', 'linkOptions'=>array(), 'itemOptions'=>array())
-     * ```
+     * </pre>
      * @param array $htmlOptions
      * @return string
      * @see http://foundation.zurb.com/docs/components/side-nav.html
@@ -59,9 +59,9 @@ class Nav
      * Generates a foundation sub nav
      *
      * @param array $items the link items to display as a side nav. The items have the following format:
-     * ```
+     * <pre>
      * array('label'=>'Item', 'url'=>'#', 'linkOptions'=>array(), 'itemOptions'=>array())
-     * ```
+     * </pre>
      * @param array $htmlOptions
      * @return string
      * @see http://foundation.zurb.com/docs/components/sub-nav.html
