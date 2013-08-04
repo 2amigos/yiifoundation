@@ -81,6 +81,8 @@ class Button
             echo $group;
         }
         echo \CHtml::closeTag('div');
+        
+        return ob_get_clean();
     }
 
     /**
