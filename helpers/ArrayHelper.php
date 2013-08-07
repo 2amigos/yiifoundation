@@ -42,12 +42,12 @@ class ArrayHelper
      * @param array $to the items to move to.
      * @return array with moved items.
      */
-    public static function move($names, $from, $to)
+    public static function move($names, $from, &$to)
     {
         if (is_array($from) && is_array($to)) {
             foreach ($names as $key) {
                 if (isset($from[$key]) && !isset($to[$key])) {
-                    $to[$key] = static::remove($from, $key);
+                    $to[$key] = static::removeValue($from, $key);
                 }
             }
         }
