@@ -32,21 +32,23 @@ class Typo
     /**
      * Makes a text italic.
      * @param string $text the text to make italic
+     * @param array $htmlOptions the HTML attributes
      * @return string the generated tag
      */
-    public static function i($text)
+    public static function i($text, $htmlOptions = array())
     {
-        return \CHtml::tag('em', $text);
+        return \CHtml::tag('em',$htmlOptions, $text);
     }
 
     /**
      * Renders a blockquote. Included as they have special style for them.
      * @param string $text the text to render within the blockquote
+     * @param array $htmlOptions the HTML attributes
      * @return string the generated blockquote
      */
-    public static function blockquote($text)
+    public static function blockquote($text, $htmlOptions = array())
     {
-        return \CHtml::tag('blockquote', $text);
+        return \CHtml::tag('blockquote', $htmlOptions, $text);
     }
 
     /**
