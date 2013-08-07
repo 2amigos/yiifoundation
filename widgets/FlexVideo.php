@@ -81,7 +81,7 @@ class FlexVideo extends base\Widget
      */
     public function renderVideo()
     {
-        $iframe = \CHtml::tag(
+        $iframe = \CHtml::openTag(
             'iframe',
             array(
                 'height'          => $this->height,
@@ -91,6 +91,7 @@ class FlexVideo extends base\Widget
                 'frameborder'     => 0,
             )
         );
+        $iframe .= \CHtml::closeTag('iframe');
         return \CHtml::tag('div', $this->htmlOptions, $iframe);
     }
 }
