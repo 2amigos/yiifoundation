@@ -77,18 +77,19 @@ class Typo
     /**
      * Renders and inline list
      * @param array $items the items to render
+     * @param array $htmlOptions the HTML attributes
      * @return string the generated list
      */
-    public static function inlineList($items)
+    public static function inlineList($items, $htmlOptions = array())
     {
         $listItems = array();
-
+        Html::addCssClass($htmlOptions, 'inline-list');
         foreach ($items as $item) {
-            $listItems[] = \CHtml::tag('li', array(), $item);
+            $listItems[] = \CHtml::tag('li', $htmlOptions, $item);
         }
 
         if (!empty($listItems)) {
-            return \CHtml::tag('ul', implode("\n", $listItems));
+            return \CHtml::tag('ul', $htmlOptions, implode("\n", $listItems));
         }
     }
 
