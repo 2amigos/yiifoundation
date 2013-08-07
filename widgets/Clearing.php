@@ -91,6 +91,7 @@ class Clearing extends base\Widget
         $imgOptions                 = array();
         $imgOptions['src']          = ArrayHelper::getValue($item, 'th', '#');
         $imgOptions['data-caption'] = ArrayHelper::getValue($item, 'caption', null);
+        $imgOptions['class']        = 'th';
         $url                        = ArrayHelper::getValue($item, 'img', '#');
 
         return \CHtml::tag('li', $options, \CHtml::link(\CHtml::tag('img', $imgOptions), $url));
