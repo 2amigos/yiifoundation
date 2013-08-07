@@ -107,10 +107,11 @@ class Typo
     /**
      * Renders a special kbd tag
      * @param string $text the text (command) to render within
+     * @param array $htmlOptions the HTML attributes
      * @return string the generated tag
      */
-    public static function kbd($text)
+    public static function kbd($text, $htmlOptions = array())
     {
-        return \CHtml::tag('kbd', $text);
+        return \CHtml::tag('kbd', $htmlOptions, $text);
     }
 }
