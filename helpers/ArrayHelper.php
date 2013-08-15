@@ -237,7 +237,7 @@ class ArrayHelper
             }
         }
 
-        return value($default);
+        return self::value($default);
     }
 
     /**
