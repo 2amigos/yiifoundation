@@ -155,7 +155,7 @@ class Orbit extends base\Widget
         if (!empty($this->pluginOptions)) {
             $options = \CJavaScript::encode($this->pluginOptions);
             \Yii::app()->clientScript
-                ->registerScript('Orbit#' . $this->getId(), "$(document).foundation('orbit', {$options}");
+                ->registerScript('Orbit#' . $this->getId(), "$(document).foundation('orbit', {$options});");
         }
 
         if (!empty($this->events)) {
