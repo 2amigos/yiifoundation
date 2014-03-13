@@ -70,7 +70,7 @@ class Alert
      */
     public static function alert($content, $htmlOptions = array(), $close = '&times')
     {
-        Arrayhelper::addValue('class', 'alert-box', $htmlOptions);
+        ArrayHelper::addValue('class', 'alert-box', $htmlOptions);
 
         ob_start();
         echo '<div data-alert ' . \CHtml::renderAttributes($htmlOptions) . '>';
