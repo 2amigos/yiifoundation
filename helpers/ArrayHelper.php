@@ -23,7 +23,7 @@ class ArrayHelper
      * @param array $to the items to copy to.
      * @return array with copied items.
      */
-    public static function copy($names, $from, $to)
+    public static function copy($names, $from, &$to)
     {
         if (is_array($from) && is_array($to)) {
             foreach ($names as $key) {
@@ -42,16 +42,17 @@ class ArrayHelper
      * @param array $to the items to move to.
      * @return array with moved items.
      */
-    public static function move($names, $from, &$to)
+    public static function move($names, &$from, &$to)
     {
         if (is_array($from) && is_array($to)) {
             foreach ($names as $key) {
                 if (isset($from[$key]) && !isset($to[$key])) {
-                    $to[$key] = static::removeValue($from, $key);
+                    $to[$key] = static::getValue($from, $key);
+                    $moved[$key] = static::removeValue($from, $key);
                 }
             }
         }
-        return $to;
+        return $moved;
     }
 
     /**
