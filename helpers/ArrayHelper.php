@@ -23,7 +23,7 @@ class ArrayHelper
      * @param array $to the items to copy to.
      * @return array with copied items.
      */
-    public static function copy($names, $from, $to)
+    public static function copy($names, $from, &$to)
     {
         if (is_array($from) && is_array($to)) {
             foreach ($names as $key) {
